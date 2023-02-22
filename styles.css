@@ -1,0 +1,19 @@
+*{
+    background-color: #888;
+    color: #000;
+    font-size: bolder;
+}
+
+.canvas1 {
+    border: 5px solid #18e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -%50);
+    transition: .5s all
+}
+.canvas1:hover{
+    border: 10px dashed green;
+    color: #18e;
+    transition: .5s all;
+}
